@@ -1,5 +1,6 @@
-import 'package:fatura_app/controllers/items_controller.dart';
+
 import 'package:get/get.dart';
+import '../../../../controllers/items_controller.dart';
 
 class ItemsBidning extends Bindings {
   @override

@@ -2,6 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../models/customer_model.dart';
+import 'invoice_controller.dart';
+
 class CustomerController extends GetxController {
   Customer? customer;
   TextEditingController customerNameInputController = TextEditingController();

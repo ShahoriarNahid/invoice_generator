@@ -3,6 +3,10 @@
 
 import 'package:flutter/material.dart';
 
+import '../../constants/colors.dart';
+import '../../env/dimensions.dart';
+import 'custom_richText.dart';
+
 class CustomInput_eng extends StatelessWidget {
   final TextEditingController? controller;
   final TextInputType? type;

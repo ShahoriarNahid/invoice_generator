@@ -1,15 +1,17 @@
-import 'package:fatura_app/constants/colors.dart';
-import 'package:fatura_app/constants/strings.dart';
-import 'package:fatura_app/controllers/items_controller.dart';
-import 'package:fatura_app/env/dimensions.dart';
-import 'package:fatura_app/screens/invoices_screens/new_invoice_screen/new_items/widgets/custom_tablerow.dart';
-import 'package:fatura_app/screens/shared_widgets/appbar_eng_view.dart';
-import 'package:fatura_app/screens/shared_widgets/custom_btn.dart';
-import 'package:fatura_app/screens/shared_widgets/custom_input_eng.dart';
-import 'package:fatura_app/screens/shared_widgets/custom_richText.dart';
-import 'package:fatura_app/screens/shared_widgets/custom_text.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:invoice_generator/screens/invoices_screens/new_invoice_screen/new_items/widgets/custom_tablerow.dart';
+
+import '../../../../constants/colors.dart';
+import '../../../../constants/strings.dart';
+import '../../../../controllers/items_controller.dart';
+import '../../../../env/dimensions.dart';
+import '../../../shared_widgets/appbar_eng_view.dart';
+import '../../../shared_widgets/custom_btn.dart';
+import '../../../shared_widgets/custom_input_eng.dart';
+import '../../../shared_widgets/custom_richText.dart';
+import '../../../shared_widgets/custom_text.dart';
 
 class NewItemScreen extends GetView<ItemsController> {
   // var controller = Get.find<ItemsController>();

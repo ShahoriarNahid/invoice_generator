@@ -1,5 +1,7 @@
-import 'package:fatura_app/controllers/invoice_controller.dart';
+
 import 'package:get/get.dart';
+
+import '../../../controllers/invoice_controller.dart';
 
 class NewInvoiceBinding extends Bindings {
   @override

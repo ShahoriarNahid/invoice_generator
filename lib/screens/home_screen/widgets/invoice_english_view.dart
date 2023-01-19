@@ -1,11 +1,13 @@
 // ignore_for_file: camel_case_types, must_be_immutable
 
-import 'package:fatura_app/env/dimensions.dart';
-import 'package:fatura_app/models/invoice_model.dart';
-import 'package:fatura_app/screens/invoices_screens/invoice_preview/pdf_ai.dart';
-import 'package:fatura_app/screens/shared_widgets/custom_text.dart';
-import 'package:fatura_app/utils/functions.dart';
+
 import 'package:flutter/material.dart';
+
+import '../../../env/dimensions.dart';
+import '../../../models/invoice_model.dart';
+import '../../../utils/functions.dart';
+import '../../invoices_screens/invoice_preview/pdf_ai.dart';
+import '../../shared_widgets/custom_text.dart';
 
 class InvoiceView_eng extends StatelessWidget {
   Invoice invoice;

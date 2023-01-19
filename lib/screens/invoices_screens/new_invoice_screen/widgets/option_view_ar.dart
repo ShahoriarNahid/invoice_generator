@@ -1,10 +1,11 @@
 // ignore_for_file: camel_case_types
 
-import 'package:fatura_app/constants/colors.dart';
-import 'package:fatura_app/env/dimensions.dart';
-import 'package:fatura_app/screens/shared_widgets/custom_text.dart';
+import '../../../../constants/colors.dart';
+import '../../../../env/dimensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
+import '../../../shared_widgets/custom_text.dart';
 
 class OptionView_ar extends StatelessWidget {
   final String title;

@@ -1,9 +1,10 @@
-import 'package:fatura_app/constants/colors.dart';
-import 'package:fatura_app/constants/strings.dart';
-import 'package:fatura_app/controllers/invoice_controller.dart';
-import 'package:fatura_app/env/dimensions.dart';
-import 'package:fatura_app/screens/shared_widgets/appbar_eng_view.dart';
-import 'package:fatura_app/screens/shared_widgets/custom_btn.dart';
+
+import '../../../../constants/colors.dart';
+import '../../../../constants/strings.dart';
+import '../../../../controllers/invoice_controller.dart';
+import '../../../../env/dimensions.dart';
+import '../../../shared_widgets/appbar_eng_view.dart';
+import '../../../shared_widgets/custom_btn.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:syncfusion_flutter_signaturepad/signaturepad.dart';

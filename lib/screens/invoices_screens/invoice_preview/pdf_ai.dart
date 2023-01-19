@@ -4,6 +4,8 @@ import 'dart:typed_data';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart';
 
+import '../../../models/invoice_model.dart';
+
 class PdfInvoiceApi {
   static Future<Uint8List> generate(Invoice invoice) async {
     const paymentTerms = '${15} days';

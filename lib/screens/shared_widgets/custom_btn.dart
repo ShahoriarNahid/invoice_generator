@@ -2,6 +2,10 @@
 
 import 'package:flutter/material.dart';
 
+import '../../constants/colors.dart';
+import '../../env/dimensions.dart';
+import 'custom_text.dart';
+
 class CustomBtn extends StatelessWidget {
   final String label;
   final Function() action;

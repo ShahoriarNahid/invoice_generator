@@ -1,12 +1,14 @@
-import 'package:fatura_app/constants/colors.dart';
-import 'package:fatura_app/constants/strings.dart';
-import 'package:fatura_app/controllers/customer_controller.dart';
-import 'package:fatura_app/env/dimensions.dart';
-import 'package:fatura_app/screens/shared_widgets/appbar_eng_view.dart';
-import 'package:fatura_app/screens/shared_widgets/custom_btn.dart';
-import 'package:fatura_app/screens/shared_widgets/custom_input_eng.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../../../constants/colors.dart';
+import '../../../../constants/strings.dart';
+import '../../../../controllers/customer_controller.dart';
+import '../../../../env/dimensions.dart';
+import '../../../shared_widgets/appbar_eng_view.dart';
+import '../../../shared_widgets/custom_btn.dart';
+import '../../../shared_widgets/custom_input_eng.dart';
 
 class NewPayerScreen extends StatelessWidget {
   const NewPayerScreen({Key? key}) : super(key: key);

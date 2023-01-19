@@ -3,6 +3,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../constants/colors.dart';
+import '../../env/dimensions.dart';
+import 'custom_text.dart';
+
 AppBar AppBar_eng({
   bool showBackArrow = false,
   List<Widget>? actions,

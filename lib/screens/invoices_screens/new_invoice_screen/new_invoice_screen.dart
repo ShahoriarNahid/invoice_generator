@@ -1,17 +1,19 @@
-import 'package:fatura_app/constants/colors.dart';
-import 'package:fatura_app/constants/strings.dart';
-import 'package:fatura_app/controllers/invoice_controller.dart';
-import 'package:fatura_app/controllers/invoices_controller.dart';
-import 'package:fatura_app/env/dimensions.dart';
-import 'package:fatura_app/models/invoice_model.dart';
-import 'package:fatura_app/screens/invoices_screens/new_invoice_screen/payment_instructions/payment_instructions.dart';
-import 'package:fatura_app/screens/invoices_screens/new_invoice_screen/widgets/option_view_eng.dart';
-import 'package:fatura_app/screens/shared_widgets/appbar_eng_view.dart';
-import 'package:fatura_app/screens/shared_widgets/custom_btn.dart';
-import 'package:fatura_app/utils/functions.dart';
+import 'package:invoice_generator/screens/invoices_screens/new_invoice_screen/payment_instructions/payment_instructions.dart';
+import 'package:invoice_generator/screens/invoices_screens/new_invoice_screen/widgets/option_view_eng.dart';
+
+import '../../../../constants/colors.dart';
+import '../../../../constants/strings.dart';
+import '../../../../controllers/invoice_controller.dart';
+import '../../../../env/dimensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
+
+import '../../../controllers/invoices_controller.dart';
+import '../../../models/invoice_model.dart';
+import '../../../utils/functions.dart';
+import '../../shared_widgets/appbar_eng_view.dart';
+import '../../shared_widgets/custom_btn.dart';
 
 class NewInvoiceScreen extends StatelessWidget {
   const NewInvoiceScreen({Key? key}) : super(key: key);

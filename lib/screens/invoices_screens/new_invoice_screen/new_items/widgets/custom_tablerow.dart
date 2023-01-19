@@ -1,10 +1,11 @@
 // ignore_for_file: non_constant_identifier_names, avoid_print
 
-import 'package:fatura_app/controllers/items_controller.dart';
-import 'package:fatura_app/models/item_model.dart';
-import 'package:fatura_app/screens/shared_widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../../../../controllers/items_controller.dart';
+import '../../../../../models/item_model.dart';
+import '../../../../shared_widgets/custom_text.dart';
 
 TableRow CustomTableRow({required Item? item}) {
   ItemsController controller = Get.find();

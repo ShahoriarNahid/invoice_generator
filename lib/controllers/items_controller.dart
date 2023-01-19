@@ -3,6 +3,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../models/item_model.dart';
+import 'invoice_controller.dart';
+
 class ItemsController extends GetxController {
   final RxList<Item> _itemsList = Get.find<InvoiceController>().itemsList;
   final RxDouble _total = 0.00.obs;

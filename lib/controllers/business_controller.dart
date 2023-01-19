@@ -2,6 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../models/business_model.dart';
+import 'invoice_controller.dart';
+
 class BusinessController extends GetxController {
   Business? business;
   TextEditingController businessNameInputController = TextEditingController();
